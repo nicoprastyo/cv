@@ -156,6 +156,8 @@ a{
     display: inline-block;
     margin-top:1.5rem;
     vertical-align: top;
+    border: 0.1rem solid #fff;
+    padding: 1rem;
 }
 
 .button,
