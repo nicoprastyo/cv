@@ -95,13 +95,14 @@
     }
 }
 
+
 .picture-shadow,
 .picture-image{
     animation-duration: 750ms;
     animation-timing-function: cubic-bezier(0, 0.5, 0.25, 1.25);
 }
 
-.wallpaper{
+/* .wallpaper{
     animation-name: zoomOut;
     animation-timing-function: ease-out;
 }
@@ -112,6 +113,29 @@
 
 .picture-image{
     animation-name: picImage;
+
+*/
+.wallpaper{
+    animation-timing-function: ease-out;
+}
+
+.wallpaper.is-loaded{
+    animation-delay: 1s;
+    animation-name: zoomOut;
+}
+
+.picture.is-loaded.picture-shadow{
+    animation-name: picShadow;
+}
+
+.picture.is-loaded.picture-image{
+    animation-name: picImage;
+}
+
+.wallpaper,
+.picture-shadow,
+.picture-image {
+    opacity: 0;
 }
 
 .name{
