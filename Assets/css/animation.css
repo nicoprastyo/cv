@@ -124,11 +124,11 @@
     animation-name: zoomOut;
 }
 
-.picture.is-loaded.picture-shadow{
+.picture.is-loaded .picture-shadow{
     animation-name: picShadow;
 }
 
-.picture.is-loaded.picture-image{
+.picture.is-loaded .picture-image{
     animation-name: picImage;
 }
 
